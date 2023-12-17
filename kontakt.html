@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontakt</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>GVG Sokolović</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="usluge.html">Usluge</a></li>
+                    <li><a href="onama.html">O Nama</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="kontakt-container" class="container">
+        <div class="kontakt-informacije">
+            <h2>Kontakt Informacije</h2>
+            <p><strong>Telefon:</strong> +381 60 111 1111</p>
+            <p><strong>Email:</strong> info@gvgsokolovic.com</p>
+        </div>
+
+        <div class="kontakt-forma">
+            <h2>Kontakt Forma</h2>
+            <form action="#" method="post">
+                <label for="ime">Ime:</label>
+                <input type="text" id="ime" name="ime" required>
+
+                <label for="mobilni-telefon">Mobilni Telefon:</label>
+                <input type="tel" id="mobilni-telefon" name="mobilni-telefon" required>
+
+                <label for="email-adresa">Email Adresa:</label>
+                <input type="email" id="email-adresa" name="email-adresa" required>
+
+                <label for="poruka">Poruka:</label>
+                <textarea id="poruka" name="poruka" rows="4" required></textarea>
+
+                <button type="submit">Pošalji Poruku</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy;  GVG Sokolović. Sva prava zadržana.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
