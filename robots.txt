@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: https://github.com/nemanjasokolovic/Projekat/blob/main/sitemap.xml
